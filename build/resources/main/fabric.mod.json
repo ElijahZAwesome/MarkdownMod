@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "markdownfabric",
+  "version": "1.1.0",
+  
+  "environment": "client",
+  "license": "MIT",
+
+  "name": "Markdown Mod",
+  "description": "This mod allows you to use Markdown syntax in the Minecraft chat.
+
+*<>* or _<>_ is \u00A7oItalic\u00A7r
+**<>** is \u00A7lBold\u00A7r
+***<>*** is \u00A7o\u00A7lBold Italics\u00A7r
+~~<>~~ is \u00A7mStrikethrough\u00A7r
+__<>__ is \u00A7nUnderline\u00A7r
+
+Think Discord.",
+  "authors": [
+    "ElijahZAwesome"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "icon": "assets/markdownfabric/icon.png",
+
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "markdownfabric.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
